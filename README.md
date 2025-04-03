@@ -15,7 +15,7 @@ The system follows a microservice architecture with four core services:
 
 | Service | Tech Stack | Deployment |
 |---------|-----------|------------|
-| [Auth Service](auth-service/README.md) | Golang, PostgreSQL, Gin, Gorm | Render |
+| [Auth Service](auth-svc/README.md) | Golang, PostgreSQL, Gin, Gorm | Render |
 | [Problem Management Service (PMS)](pms-service/README.md) | Spring Boot, Hibernate, PostgreSQL | Render |
 | [Submission Service](submission-service/README.md) | Golang, RabbitMQ, WebSocket | Render |
 | [Code Execution Service](code-execution-service/README.md) | Golang, Docker SDK, RabbitMQ | AWS EC2 |
