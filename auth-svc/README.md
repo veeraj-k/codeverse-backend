@@ -3,7 +3,7 @@
 The Auth Service is responsible for authentication and authorization in CodeVerse. It provides JWT-based authentication and acts as a middleware proxy for other services, ensuring all requests are validated before being forwarded.
 
 - GitHub: https://github.com/veeraj-k/codeverse-auth-service
-- Backend: https://codeverse-auth-svc.onrender.com/
+- Backend: https://codeverse-auth-svc.onrender.com/health
 
 ## Features
 
