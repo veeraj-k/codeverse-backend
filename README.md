@@ -13,12 +13,12 @@ CodeVerse is a microservices-based online coding platform where users can practi
 
 The system follows a microservice architecture with four core services:
 
-| Service | Tech Stack | Deployment |
-|---------|-----------|------------|
-| [Auth Service](auth-svc/README.md) | Golang, PostgreSQL, Gin, Gorm | Render |
-| [Problem Management Service (PMS)](pms-service/README.md) | Spring Boot, Hibernate, PostgreSQL | Render |
-| [Submission Service](submission-service/README.md) | Golang, RabbitMQ, WebSocket | Render |
-| [Code Execution Service](code-execution-service/README.md) | Golang, Docker SDK, RabbitMQ | AWS EC2 |
+| Service | Tech Stack | Deployment | Github |
+|---------|-----------|------------|------------|
+| [Auth Service](auth-svc/README.md) | Golang, PostgreSQL, Gin, Gorm | Render | [Github](https://github.com/veeraj-k/codeverse-auth-service) |
+| [Problem Management Service (PMS)](pms-service/README.md) | Spring Boot, Hibernate, PostgreSQL | Render | [Github](https://github.com/veeraj-k/codeverse-pms-svc) |
+| [Submission Service](submission-service/README.md) | Golang, RabbitMQ, WebSocket | Render | [Github](https://github.com/veeraj-k/codeverse-submission-svc) |
+| [Code Execution Service](code-execution-service/README.md) | Golang, Docker SDK, RabbitMQ | AWS EC2 | [Github](https://github.com/veeraj-k/codeverse-code-execution-svc) |
 
 ### External Services
 - Database: Supabase (PostgreSQL)
